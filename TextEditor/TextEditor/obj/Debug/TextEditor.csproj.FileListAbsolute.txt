@@ -1,0 +1,9 @@
+C:\Users\Student\source\repos\TextEditor\TextEditor\bin\Debug\TextEditor.exe.config
+C:\Users\Student\source\repos\TextEditor\TextEditor\bin\Debug\TextEditor.exe
+C:\Users\Student\source\repos\TextEditor\TextEditor\bin\Debug\TextEditor.pdb
+C:\Users\Student\source\repos\TextEditor\TextEditor\obj\Debug\TextEditor.csprojAssemblyReference.cache
+C:\Users\Student\source\repos\TextEditor\TextEditor\obj\Debug\TextEditor.Form1.resources
+C:\Users\Student\source\repos\TextEditor\TextEditor\obj\Debug\TextEditor.Properties.Resources.resources
+C:\Users\Student\source\repos\TextEditor\TextEditor\obj\Debug\TextEditor.csproj.GenerateResource.cache
+C:\Users\Student\source\repos\TextEditor\TextEditor\obj\Debug\TextEditor.exe
+C:\Users\Student\source\repos\TextEditor\TextEditor\obj\Debug\TextEditor.pdb
