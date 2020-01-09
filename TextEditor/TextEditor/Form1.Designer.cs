@@ -39,26 +39,26 @@
             this.settingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.changeSettingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.dEFAULTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.dEFAULTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.BackColor = System.Drawing.Color.Gray;
-            this.menuStrip1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuStrip1.Font = new System.Drawing.Font("Minion Pro", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.settingsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(836, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(836, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -69,17 +69,17 @@
             this.saveAsToolStripMenuItem,
             this.saveToolStripMenuItem,
             this.openToolStripMenuItem});
-            this.fileToolStripMenuItem.Font = new System.Drawing.Font("Nouveau IBM Stretch", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fileToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(43, 20);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(60, 24);
             this.fileToolStripMenuItem.Text = "FILE";
             // 
             // newToolStripMenuItem
             // 
-            this.newToolStripMenuItem.Font = new System.Drawing.Font("Nouveau IBM Stretch", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.newToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.newToolStripMenuItem.Name = "newToolStripMenuItem";
             this.newToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.newToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.newToolStripMenuItem.Size = new System.Drawing.Size(246, 24);
             this.newToolStripMenuItem.Text = "NEW";
             this.newToolStripMenuItem.Click += new System.EventHandler(this.newToolStripMenuItem_Click);
             // 
@@ -90,23 +90,23 @@
             this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
             this.saveAsToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Alt) 
             | System.Windows.Forms.Keys.S)));
-            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(246, 24);
             this.saveAsToolStripMenuItem.Text = "SAVE AS";
             this.saveAsToolStripMenuItem.Click += new System.EventHandler(this.saveAsToolStripMenuItem_Click);
             // 
             // toolStripTextBox1
             // 
             this.toolStripTextBox1.BackColor = System.Drawing.Color.White;
-            this.toolStripTextBox1.Font = new System.Drawing.Font("Nouveau IBM Stretch", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripTextBox1.Name = "toolStripTextBox1";
-            this.toolStripTextBox1.Size = new System.Drawing.Size(100, 21);
+            this.toolStripTextBox1.Size = new System.Drawing.Size(100, 22);
             this.toolStripTextBox1.Text = "untitled";
             // 
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
             this.saveToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(246, 24);
             this.saveToolStripMenuItem.Text = "SAVE";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
@@ -114,7 +114,7 @@
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
             this.openToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(246, 24);
             this.openToolStripMenuItem.Text = "OPEN";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
@@ -124,24 +124,31 @@
             this.changeSettingsToolStripMenuItem,
             this.saveToolStripMenuItem1,
             this.dEFAULTToolStripMenuItem});
-            this.settingsToolStripMenuItem.Font = new System.Drawing.Font("Nouveau IBM Stretch", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.settingsToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
-            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
+            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(96, 24);
             this.settingsToolStripMenuItem.Text = "SETTINGS";
             // 
             // changeSettingsToolStripMenuItem
             // 
             this.changeSettingsToolStripMenuItem.Name = "changeSettingsToolStripMenuItem";
-            this.changeSettingsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.changeSettingsToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
             this.changeSettingsToolStripMenuItem.Text = "CHANGE";
             this.changeSettingsToolStripMenuItem.Click += new System.EventHandler(this.changeSettingsToolStripMenuItem_Click);
             // 
             // saveToolStripMenuItem1
             // 
             this.saveToolStripMenuItem1.Name = "saveToolStripMenuItem1";
-            this.saveToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.saveToolStripMenuItem1.Size = new System.Drawing.Size(145, 22);
             this.saveToolStripMenuItem1.Text = "SAVE";
             this.saveToolStripMenuItem1.Click += new System.EventHandler(this.saveToolStripMenuItem1_Click);
+            // 
+            // dEFAULTToolStripMenuItem
+            // 
+            this.dEFAULTToolStripMenuItem.Name = "dEFAULTToolStripMenuItem";
+            this.dEFAULTToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
+            this.dEFAULTToolStripMenuItem.Text = "DEFAULT";
+            this.dEFAULTToolStripMenuItem.Click += new System.EventHandler(this.DEFAULTToolStripMenuItem_Click);
             // 
             // textBox1
             // 
@@ -151,14 +158,14 @@
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox1.Font = new System.Drawing.Font("Nouveau IBM Stretch", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(0, 24);
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(0, 28);
             this.textBox1.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.textBox1.MaxLength = 9999999;
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textBox1.Size = new System.Drawing.Size(836, 513);
+            this.textBox1.Size = new System.Drawing.Size(836, 509);
             this.textBox1.TabIndex = 1;
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox1.WordWrap = false;
@@ -172,10 +179,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Gray;
-            this.label1.Font = new System.Drawing.Font("Nouveau IBM Stretch", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(152, 5);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 13);
+            this.label1.Size = new System.Drawing.Size(127, 16);
             this.label1.TabIndex = 2;
             this.label1.Text = "CHARACTERS: 0";
             // 
@@ -183,19 +190,12 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Gray;
-            this.label2.Font = new System.Drawing.Font("Nouveau IBM Stretch", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(278, 5);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(85, 13);
+            this.label2.Size = new System.Drawing.Size(128, 16);
             this.label2.TabIndex = 3;
             this.label2.Text = "WORD COUNT: 0";
-            // 
-            // dEFAULTToolStripMenuItem
-            // 
-            this.dEFAULTToolStripMenuItem.Name = "dEFAULTToolStripMenuItem";
-            this.dEFAULTToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.dEFAULTToolStripMenuItem.Text = "DEFAULT";
-            this.dEFAULTToolStripMenuItem.Click += new System.EventHandler(this.DEFAULTToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -213,6 +213,7 @@
             this.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.Name = "Form1";
             this.Text = "BEITEN";
+            this.Shown += new System.EventHandler(this.Form1_Shown);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

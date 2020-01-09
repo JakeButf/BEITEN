@@ -8,3 +8,13 @@ C:\Users\Student\Documents\BEITEN-master\TextEditor\TextEditor\bin\Release\BEITE
 C:\Users\Student\Documents\BEITEN-master\TextEditor\TextEditor\obj\Release\BEITEN.Properties.Resources.resources
 C:\Users\Student\Documents\BEITEN-master\TextEditor\TextEditor\obj\Release\BEITEN.exe
 C:\Users\Student\Documents\BEITEN-master\TextEditor\TextEditor\obj\Release\BEITEN.pdb
+C:\Users\Jacob\Documents\ProgrammingFiles\BEITEN-master\TextEditor\TextEditor\bin\Release\BEITEN.exe.config
+C:\Users\Jacob\Documents\ProgrammingFiles\BEITEN-master\TextEditor\TextEditor\bin\Release\BEITEN.exe
+C:\Users\Jacob\Documents\ProgrammingFiles\BEITEN-master\TextEditor\TextEditor\bin\Release\BEITEN.pdb
+C:\Users\Jacob\Documents\ProgrammingFiles\BEITEN-master\TextEditor\TextEditor\obj\Release\TextEditor.csprojAssemblyReference.cache
+C:\Users\Jacob\Documents\ProgrammingFiles\BEITEN-master\TextEditor\TextEditor\obj\Release\TextEditor.Form1.resources
+C:\Users\Jacob\Documents\ProgrammingFiles\BEITEN-master\TextEditor\TextEditor\obj\Release\BEITEN.Properties.Resources.resources
+C:\Users\Jacob\Documents\ProgrammingFiles\BEITEN-master\TextEditor\TextEditor\obj\Release\TextEditor.csproj.GenerateResource.cache
+C:\Users\Jacob\Documents\ProgrammingFiles\BEITEN-master\TextEditor\TextEditor\obj\Release\TextEditor.csproj.CoreCompileInputs.cache
+C:\Users\Jacob\Documents\ProgrammingFiles\BEITEN-master\TextEditor\TextEditor\obj\Release\BEITEN.exe
+C:\Users\Jacob\Documents\ProgrammingFiles\BEITEN-master\TextEditor\TextEditor\obj\Release\BEITEN.pdb
