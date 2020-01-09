@@ -25,11 +25,16 @@ namespace TextEditor
         {
             InitializeComponent();
             
-            menuStrip1.ForeColor = Color.White;
+            
 
             var sr = new StreamReader(System.IO.Path.GetDirectoryName(Application.ExecutablePath) + @"/settings.txt");
             textBox1.Font = new Font(textBox1.Font.FontFamily, float.Parse(sr.ReadLine()));
-            textBox1.ForeColor = Color.FromName(sr.ReadLine());
+            Color textColor = Color.FromName(sr.ReadLine());
+            textBox1.ForeColor = textColor;
+            menuStrip1.ForeColor = textColor;
+            textBox1.BackColor = Color.FromArgb(01, 00, 128);
+            this.BackColor = Color.FromArgb(01, 00, 128);
+            menuStrip1.BackColor = Color.FromArgb(01, 00, 128);
             var text = sr.ReadLine();
             switch(text)
             {
@@ -168,7 +173,7 @@ namespace TextEditor
             textBox1.Text =
             "//////////////////////////////////////////////////////////////////////////////////////////" + Environment.NewLine +
             "//////////////////////////////////////////////////////////////////////////////////////////" + Environment.NewLine +
-            "///BEITEN v.1.0.0                                                                      ///" + Environment.NewLine +
+            "///BEITEN v.1.1.0                                                                      ///" + Environment.NewLine +
             "///                                                                                    ///" + Environment.NewLine +
             "///                                  --UNTITLED DOCUMENT--                             ///" + Environment.NewLine +
             "///                                                                                    ///" + Environment.NewLine +
