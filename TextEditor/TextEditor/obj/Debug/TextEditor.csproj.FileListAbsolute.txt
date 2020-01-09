@@ -7,3 +7,13 @@ C:\Users\Student\source\repos\TextEditor\TextEditor\obj\Debug\TextEditor.Propert
 C:\Users\Student\source\repos\TextEditor\TextEditor\obj\Debug\TextEditor.csproj.GenerateResource.cache
 C:\Users\Student\source\repos\TextEditor\TextEditor\obj\Debug\TextEditor.exe
 C:\Users\Student\source\repos\TextEditor\TextEditor\obj\Debug\TextEditor.pdb
+C:\Users\Student\Documents\BEITEN-master\TextEditor\TextEditor\obj\Debug\TextEditor.csprojAssemblyReference.cache
+C:\Users\Student\Documents\BEITEN-master\TextEditor\TextEditor\obj\Debug\TextEditor.Form1.resources
+C:\Users\Student\Documents\BEITEN-master\TextEditor\TextEditor\obj\Debug\TextEditor.csproj.GenerateResource.cache
+C:\Users\Student\Documents\BEITEN-master\TextEditor\TextEditor\obj\Debug\TextEditor.csproj.CoreCompileInputs.cache
+C:\Users\Student\Documents\BEITEN-master\TextEditor\TextEditor\bin\Debug\BEITEN.exe.config
+C:\Users\Student\Documents\BEITEN-master\TextEditor\TextEditor\bin\Debug\BEITEN.exe
+C:\Users\Student\Documents\BEITEN-master\TextEditor\TextEditor\bin\Debug\BEITEN.pdb
+C:\Users\Student\Documents\BEITEN-master\TextEditor\TextEditor\obj\Debug\BEITEN.Properties.Resources.resources
+C:\Users\Student\Documents\BEITEN-master\TextEditor\TextEditor\obj\Debug\BEITEN.exe
+C:\Users\Student\Documents\BEITEN-master\TextEditor\TextEditor\obj\Debug\BEITEN.pdb
